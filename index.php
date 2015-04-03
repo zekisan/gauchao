@@ -3,215 +3,298 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 	<title></title>
 </head>
 <body>
-  <table class="table">
-    <thead>
-      <th colspan="4">10ª Rodada</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qua - 11/03 - 17:00</td>
-            </tr>
-            <tr>
-              <td>
-                <a href="http://www.sercaxias.com.br/" target="_blank"><img src="img/caxias.png"></a>
-              </td>
-              <td align="left"  width="100px"><span>Caxias</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td align="right"  width="100px">
-                <span>Lajeadense</span>
-              </td>
-              <td>
-                <img src="img/lajeadense.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qua - 11/03 - 19:30</td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/inter.png">
-              </td>
-              <td  align="left"  width="120px"><span>Internacional</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td align="right"  width="110px">
-                <span>Aimoré</span>
-              </td>
-              <td>
-                <img src="img/aimore.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qua - 11/03 - 20:30</td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/saopaulo.png">
-              </td>
-              <td  align="left"  width="100px"><span>São Paulo</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td  align="right"  width="100px">
-                <span>São José</span>
-              </td>
-              <td>
-                <img src="img/saojose.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qua - 11/03 - 20:30</td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/novohamburgo.png">
-              </td>
-              <td align="left"  width="120px"><span>Novo Hamburgo</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td align="right"  width="110px">
-                <span>Cruzeiro</span>
-              </td>
-              <td>
-                <img src="img/cruzeiro.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qua - 11/03 - 20:30</td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/veranopolis.png">
-              </td>
-              <td  align="left"  width="100px"><span>Veranópolis</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td  align="right"  width="100px">
-                <span>Avenida</span>
-              </td>
-              <td>
-                <img src="img/avenida.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qua - 11/03 - 22:00</td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/ypiranga.png">
-              </td>
-              <td align="left"  width="120px"><span>Ypiranga</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td align="right"  width="110px">
-                <span>Grêmio</span>
-              </td>
-              <td>
-                <img src="img/gremio.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qui - 12/03 - 16:00</td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/uniao.png">
-              </td>
-              <td  align="left"  width="100px"><span>União</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td  align="right"  width="100px">
-                <span>Juventude</span>
-              </td>
-              <td>
-                <img src="img/juventude.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td  colspan="5" align="center">qui - 12/03 - 20:00</td>
-            </tr>
-            <tr>
-              <td>
-                <img src="img/passofundo.png">
-              </td>
-              <td align="left"  width="120px"><span>Passo Fundo</span></td>
-              <td>
-                <input type="text" size="1">
-                x
-                <input type="text" size="1">
-              </td>
-              <td align="right"  width="110px">
-                <span>Brasil de Pelotas</span>
-              </td>
-              <td>
-                <img src="img/brasilpelotas.png"> 
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="row">
+    <div class="container">
+      <table class="table">
+        <thead>
+          <th colspan="4" id="titulo-principal">10ª Rodada</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td colspan="5">
+                      qua - 11/03 - 17:00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://www.sercaxias.com.br/" target="_blank">
+                        <img src="img/caxias.png">
+                      </a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">CAXIAS</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">LAJEADENSE</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://www.celajeadense.com.br/" target="_blank">
+                        <img src="img/lajeadense.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td  colspan="5">
+                      qua - 11/03 - 19:30
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://www.internacional.com.br/" target="_blank">
+                        <img src="img/inter.png">
+                      </a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">INTERNACIONAL</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">AIMORÉ</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://www.ceaimore.com.br/" target="_blank">
+                        <img src="img/aimore.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td colspan="5">
+                      qua - 11/03 - 20:30
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://saopaulors.com.br/content/" target="_blank">
+                        <img src="img/saopaulo.png">
+                      </a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">SÃO PAULO-RS</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">SÃO JOSÉ-RS</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://ecsaojose.esp.br/blog/" target="_blank">
+                        <img src="img/saojose.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td colspan="5">
+                      qua - 11/03 - 20:30
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://www.ecnh.com.br/site/" target="_blank">
+                        <img src="img/novohamburgo.png">
+                      </a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">NOVO HAMBURGO</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">CRUZEIRO-RS</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://www.cruzeiropoa.com.br/" target="_blank">
+                        <img src="img/cruzeiro.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td colspan="5">
+                      qua - 11/03 - 20:30
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://www.vec.net.br/" target="_blank">
+                        <img src="img/veranopolis.png">
+                      </a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">VERANÓPOLIS</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">AVENIDA</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://www.ecavenida.com.br/" target="_blank">
+                        <img src="img/avenida.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td colspan="5">
+                      qua - 11/03 - 22:00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://www.yfc.com.br/" target="_blank"><img src="img/ypiranga.png"></a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">YPIRANGA</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">GRÊMIO</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://www.gremio.net/" target="_blank">
+                        <img src="img/gremio.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td colspan="5">
+                      qui - 12/03 - 16:00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://www.uniaofrederiquense.com.br/site/" target="_blank">
+                        <img src="img/uniao.png">
+                      </a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">UNIÃO FREDERIQUENSE</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">JUVENTUDE</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://www.juventude.com.br/" target="_blank">
+                        <img src="img/juventude.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+            <td>
+              <div class="divisoria">
+                <table class="placar">
+                  <tr class="data">
+                    <td colspan="5">
+                      qui - 12/03 - 20:00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="logo">
+                      <a href="http://www.ecpassofundo.com.br/2013/index.php" target="_blank">
+                        <img src="img/passofundo.png">
+                      </a>
+                    </td>
+                    <td class="esquerda">
+                      <div class="nome-time">PASSO FUNDO</div>
+                    </td>
+                    <td class="centro">
+                      <input type="text" size="2">
+                      X
+                      <input type="text" size="2">
+                    </td>
+                    <td class="direita">
+                      <div class="nome-time">BRASIL DE PELOTAS</div>
+                    </td>
+                    <td class="logo">
+                      <a href="http://www.gebrasil.com.br/" target="_blank">
+                        <img src="img/brasilpelotas.png">
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 </html>

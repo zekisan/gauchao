@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-	<title></title>
+	<title>Gauchão</title>
+  <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 </head>
 <body>
   <div class="row">
@@ -34,9 +36,9 @@
                         <div class="nome-time">CAXIAS</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="caxias">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="lajeadense">
                       </td>
                       <td class="direita">
                         <div class="nome-time">LAJEADENSE</div>
@@ -68,9 +70,9 @@
                         <div class="nome-time">INTERNACIONAL</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="inter">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="aimore">
                       </td>
                       <td class="direita">
                         <div class="nome-time">AIMORÉ</div>
@@ -104,9 +106,9 @@
                         <div class="nome-time">SÃO PAULO-RS</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="saopaulo">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="saojose">
                       </td>
                       <td class="direita">
                         <div class="nome-time">SÃO JOSÉ-RS</div>
@@ -138,9 +140,9 @@
                         <div class="nome-time">NOVO HAMBURGO</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="novohamburgo">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="cruzeiro">
                       </td>
                       <td class="direita">
                         <div class="nome-time">CRUZEIRO-RS</div>
@@ -174,9 +176,9 @@
                         <div class="nome-time">VERANÓPOLIS</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="veranopolis">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="avenida">
                       </td>
                       <td class="direita">
                         <div class="nome-time">AVENIDA</div>
@@ -206,9 +208,9 @@
                         <div class="nome-time">YPIRANGA</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="ypiranga">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="gremio">
                       </td>
                       <td class="direita">
                         <div class="nome-time">GRÊMIO</div>
@@ -242,9 +244,9 @@
                         <div class="nome-time">UNIÃO FREDERIQUENSE</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="uniao">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="juventude">
                       </td>
                       <td class="direita">
                         <div class="nome-time">JUVENTUDE</div>
@@ -276,9 +278,9 @@
                         <div class="nome-time">PASSO FUNDO</div>
                       </td>
                       <td class="centro">
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="passofundo">
                         X
-                        <input type="text" size="2">
+                        <input type="text" size="2" name="brasil">
                       </td>
                       <td class="direita">
                         <div class="nome-time">BRASIL DE PELOTAS</div>
@@ -295,6 +297,7 @@
             </tr>
             <tr>
               <td colspan="5">
+                <button type="button" class="btn btn-primary" onclick="gerarPlacar()">Gerar Placar</button>
                 <button type="submit" class="btn btn-success">Enviar Resultados</button>
               </td>
             </tr>
@@ -303,5 +306,13 @@
       </form>
     </div>
   </div>
+  <div class="row">
+    <div class="container">
+      <?php require 'resultados.php'; ?>
+    </div>
+  </div>
+  <script type="text/javascript">
+    
+  </script>
 </body>
 </html>
